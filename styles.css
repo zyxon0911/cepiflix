@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+}
+.netflix-logo-0 {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 6rem; 
+  color: 	rgb(229,9,20);
+  text-transform: uppercase; 
+  letter-spacing: 0.1em;
+  text-shadow: 
+    4px 4px 0 #000, 
+    8px 8px 5px rgba(0, 0, 0, 0.5);
+}
+a{
+  text-decoration: none;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(229, 9, 20);
+      text-shadow: 
+    4px 4px 0 #000, 
+    8px 8px 5px rgba(0, 0, 0, 0.5);
+}
+h1, h2 {
+    color: rgb(229, 9, 20);
+    text-align: center;
+    margin: 20px 0;
+}
+.scroll-container {
+    width: 100%;
+    overflow-x: auto; /* Habilita a rolagem horizontal */
+    white-space: nowrap; /* Impede a quebra de linha */
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.scroll-content {
+    display: inline-flex; /* Itens em linha para a rolagem lateral */
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.item {
+    min-width: 300px;
+    height: 200px;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza conteúdo na horizontal */
+    justify-content: center; /* Centraliza conteúdo na vertical */
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 15px;
+    position: relative; /* Necessário para posicionar o flair dentro do item */
+}
+
+/* Estilo do título */
+.item h3 {
+    margin: 0; /* Remove margens padrão */
+    
+    font-size: 46px; /* Tamanho maior para o título */
+    font-weight: bold; /* Destaca o título */
+}
+/* Estilo da descrição */
+.item p {
+  text-align: left;
+    margin: 10px 0 0; /* Espaço acima do parágrafo */
+    font-size: 16px; /* Tamanho do texto da descrição */
+    font-weight: normal; /* Texto menos destacado */
+}
+
+.item:nth-child(1) {
+    background-color: #FF5733; /* Vermelho */
+}
+
+.item:nth-child(2) {
+    background-color: #33C1FF; /* Azul */
+}
+
+.item:nth-child(3) {
+    background-color: #33FF57; /* Verde */
+}
+
+.item:nth-child(4) {
+    background-color: #FFC133; /* Amarelo */
+}
+
+.item:nth-child(5) {
+    background-color: #A633FF; /* Roxo */
+}
+#poema .item:nth-child(1) {
+    background-color: #800000; /* Vermelho escuro */
+}
+
+#poema .item:nth-child(2) {
+    background-color: #008080; /* Verde-azulado */
+}
+
+#poema .item:nth-child(3) {
+    background-color: #6A5ACD; /* Azul ardósia */
+}
+
+#poema .item:nth-child(4) {
+    background-color: #B22222; /* Vermelho fogo */
+}
+
+#poema .item:nth-child(5) {
+    background-color: #708090; /* Cinza ardósia */
+}
+
